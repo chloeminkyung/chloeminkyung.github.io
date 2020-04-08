@@ -5642,6 +5642,11 @@ main {
 .btn-download:active,
 .btn-download:focus {
 	outline: none;
+	background-color: transparent;
+	color: #4c6590;
+	border-color: #4c6590;
+	font-size: 11px;
+	font-family: Raleway,sans-serif; 
 }
 
 .nav-footer {
