@@ -5892,7 +5892,7 @@ ul.projects>li:before {
 }
 
 .header-hr {
-	width: 150px;
+	width: 0px;
 	margin: 20px 30px 0;
 	border-top: 1px solid #95a7c7;
 }
