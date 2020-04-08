@@ -5615,9 +5615,9 @@ main {
 	font-size: 20px;
 	font-weight: 700;
 	display: block;
-	-webkit-transition: all .1s linear;
-	-o-transition: all .1s linear;
-	transition: all .1s linear
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
 }
 
 .site-brand:hover {
@@ -5626,6 +5626,9 @@ main {
 }
 
 .btn-download {
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
 	background-color: transparent;
 	color: #4c6590;
 	border-color: #4c6590;
@@ -5907,18 +5910,18 @@ ul.projects>li:before {
 }
 
 .company {
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
 	/*font-family: Cormorant Garamond, sans-serif;*/
 	/*font-weight: 600;*/
 	color: #4c6590;
 }
 
-.company:hover {
-	/*text-decoration: none;*/
-	/*background-color: rgba(149, 167, 199, 0.7);*/
-	/*color: white;*/
-	color: #4c6590;
-	text-decoration: underline;
-	text-decoration-color: rgba(149, 167, 199, 0.7);
+.timeline-item:hover .company {
+	text-decoration: none;
+	background-color: rgba(149, 167, 199, 0.7);
+	color: white;
 }
 
 .company:focus,
