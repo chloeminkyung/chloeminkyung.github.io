@@ -42,7 +42,7 @@
             withCredentials: true
           }
         })
-        var message = $('#contact-form').data('success-text') || 'Your message has been sent. We will get back to you shortly!';
+        var message = $('#contact-form').data('success-text') || 'Your message has been sent. I will get back to you shortly!';
         var succesTemplate = '<div role="alert" class="alert alert-success alert-outline">'+ message +'</div>';
         $('#contact-form .alert').fadeOut(300);
         $(succesTemplate).insertBefore($('#contact-form button'));
