@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <title>Chloe Kim</title>
   <meta charset="UTF-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width,initial-scale=1" name="viewport">
@@ -22,11 +23,9 @@
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
-  
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet" type="text/css">
 
+  <!-- CSS & JS -->
+  <link href="./main.82cfd66e.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -38,32 +37,18 @@
 
     gtag('config', 'UA-114946034-2');
   </script>
-  
-  <style>
-    .author-img {
-      width: 150px;
-      height: 150px;
-      margin: 0 auto;
-      margin-bottom: 30px;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      border-radius: 50%; }
-  </style>
-
-  <title>Chloe Kim</title>  
-
-<link href="./main.82cfd66e.css" rel="stylesheet"></head>
+</head>
 
 <body>
 
-<!-- Add your content of header -->
-<header class="">
+<header>
+  
   <div class="navbar navbar-default visible-xs navbar-fixed-top">
   </div>
 
-  <div class="navbar navbar-default visible-xs navbar-fixed-bottom" style="background: white; padding: 10px;">
-    <p class="nav-footer-social-buttons text-center vertical-center" style="width: 100%; height:100%;">
+  <!-- default sidebar footer -->
+  <div class="navbar navbar-default visible-xs navbar-fixed-bottom">
+    <p class="nav-footer-social-buttons text-center vertical-center">
       <a class="fa-icon" target="_blank" href="https://github.com/chloeminkyung" title="">
         <i class="fa fa-github"></i>
       </a>
@@ -76,38 +61,35 @@
       <a class="fa-icon" target="_blank" href="mailto:chloeminkyung@gmail.com" title="">
         <i class="fa fa-envelope-o" aria-hidden="true"></i>
       </a>
-      <br><span style="font-size: 12px;">© Chloe Kim <span style="color: rgba(12, 12, 12, 0.4);"> All Rights Reserved.</span></span></a></p>
+      <br>
+      <span class="copyright">
+        &copy;&nbsp;
+        <script>document.write(new Date().getFullYear());</script>
+        &nbsp;Chloe Kim&nbsp;
+        <span style="color: rgba(12, 12, 12, 0.4);">&nbsp;All Rights Reserved.</span>
+      </span>
+    </p>
   </div>
 
-  <nav class="sidebar" style="padding-top: 100px;">
+  <!-- mobile sidebar -->
+  <nav class="sidebar">
     <div class="navbar-collapse" id="navbar-collapse">
       <div class="site-header hidden-xs">
-          <a class="site-brand" href="./index.html" title="">
-            <div class="author-img" style="background-image: url(./assets/images/kmk.jpg); background-size: cover;" ></div>
-            <!-- <img class="img-responsive site-logo" alt="" src="./assets/images/mashup-logo.svg"> -->
-            Chloe Minkyung Kim
-          </a>
-        <p style="font-size: 12px;">
+          <a class="site-brand" href="./index.html" title=""><div class="author-img"></div>Chloe Minkyung Kim</a>
+        <p class="side-about">
           BEng in Computer Science, HKUST<br>
-          Deep Learning | NLP | Data Visualization<br><br>
-          <!-- 👶🏻&nbsp;Korea&nbsp;|&nbsp;🧒🏻&nbsp;Malaysia&nbsp;|&nbsp;📚&nbsp;Hong Kong&nbsp;|&nbsp;💻&nbsp;Singapore -->
+          Deep Learning
+          <span class="line-middle"></span>NLP
+          <span class="line-middle"></span>Data Visualization
+          <br>
+          <br>
           👶🏻&nbsp;Seoul<br>
           🧒🏻&nbsp;Kuala Lumpur<br>
           📚&nbsp;Hong Kong<br>
           💻&nbsp;Singapore
         </p>
-        <!-- <hr>
-        <a href="./index.html" style="text-decoration: none;">About</a><br>
-        <a href="./blog.html" style="text-decoration: none;">Blog</a>
-        <hr> -->
       </div>
-<!--       <ul class="nav">
-        <li><a href="./index.html" title="">Home</a></li>
-        <li><a href="./about.html" title="">About</a></li>
-        <li><a href="./contact.html" title="">Contact</a></li>
-        <li><a href="./components.html" title="">Components</a></li>
-      </ul> -->
-      <nav class="nav-footer" style="background: white; padding: 10px;">
+      <nav class="nav-footer">
         <p class="nav-footer-social-buttons">
           <a class="fa-icon" target="_blank" href="https://github.com/chloeminkyung" title="">
             <i class="fa fa-github"></i>
@@ -122,190 +104,316 @@
             <i class="fa fa-envelope-o" aria-hidden="true"></i>
           </a>
         </p>
-        <p>© Chloe Kim <span style="color: rgba(12, 12, 12, 0.4);"> All Rights Reserved.</span></a></p>
+        <span class="copyright">
+          &copy;&nbsp;
+          <script>document.write(new Date().getFullYear());</script>
+          &nbsp;Chloe Kim&nbsp;
+          <span style="color: rgba(12, 12, 12, 0.4);">&nbsp;All Rights Reserved.</span>
+      </span>
       </nav>
     </div>
   </nav>
 </header>
 
-<main class="main" id="main-collapse" style="padding-left: 10vw; padding-right: 10vw">
-<!-- Add your site or app content here -->
+<main class="main" id="main-collapse">
 
+  <!-- default sidebar -->
   <div class="hero-full-wrapper">
     <div class="visible-xs">
-      <a class="site-brand" href="./index.html" title="">
-          <div class="author-img" style="background-image: url(./assets/images/kmk.jpg); background-size: cover;" ></div>
-          <!-- <img class="img-responsive site-logo" alt="" src="./assets/images/mashup-logo.svg"> -->
-          Chloe Minkyung Kim
-        </a>
-      <p style="font-size: 12px;">
+      <a class="site-brand" href="./index.html" title=""><div class="author-img"></div>Chloe Minkyung Kim</a>
+      <p class="side-about">
         BEng in Computer Science, HKUST<br>
-        Deep Learning | NLP | Data Visualization<br><br>
-        👶🏻&nbsp;Seoul&nbsp;&nbsp;|&nbsp;&nbsp;🧒🏻&nbsp;Kuala Lumpur&nbsp;&nbsp;|&nbsp;&nbsp;📚&nbsp;Hong Kong&nbsp;&nbsp;|&nbsp;&nbsp;💻&nbsp;Singapore
+        Deep Learning
+        <span class="line-middle"></span>NLP
+        <span class="line-middle"></span>Data Visualization
+        <br>
+        <br>
+        👶🏻&nbsp;Seoul<span class="line-middle"></span>
+        🧒🏻&nbsp;Kuala Lumpur<span class="line-middle"></span>
+        📚&nbsp;Hong Kong<span class="line-middle"></span>
+        💻&nbsp;Singapore
       </p>
     </div>
 
-    <hr>
+    <!-- About -->
+    <section id="about">
+      <div class="row">
+        <div class="col-md-12">
 
-    I'm undergraduate student studying <strong>Computer Science in Hong Kong University of Science and Technology (HKUST)</strong>.<br>
-    Skilled in Python, C++, Machine/Deep Learning, and Web development. I previously worked on the <strong>Full Stack Web Development</strong> and various <strong>Machine Learning</strong> & <strong>Natural Language Processing (NLP)</strong> related projects.<br><br>
-    <p><a class="btn btn-primary" target="_blank" href="Chloe_KIM_CV_Feb_9__20.pdf" style="font-size: 11px; font-family: Quicksand,sans-serif; ">DOWNLOAD CV&nbsp;&nbsp;<i class="fa fa-download"></i></a></p>
+          <hr>
+          <h4 class="header">About</h4>
+          <hr class="header-hr">
 
-    <hr>
+          <br>
 
-    <div class="row" style="padding-right:35px;">
-      <div class="col-md-11">
-        <h4 style="color: #337ab7;">Experiences</h4><br>
-        <ul class="timeline">
-          <li>
-            <a target="_blank" href="https://www.goldmansachs.com">Goldman Sachs</a>&nbsp;&nbsp;
-            <a style="cursor: default; text-decoration: none; font-size:12px; color: #656565;">Singapore</a>
-            <br>
-            <p class="pull-left" style="font-size:13px; color: black;">Incoming Analyst</p>
-            <p class="pull-right" style="font-size:13px;">July 2020 – </p>
-            <br><br>
-          </li>
-          <li>
-            <a target="_blank" href="https://www.monan-hanquoc.com">Monan-Hanquoc</a>&nbsp;&nbsp;
-            <a style="cursor: default; text-decoration: none; font-size:12px; color: #656565;">Remote</a>
-            <br>
-            <p class="pull-left" style="font-size:13px; color: black;">Full Stack Web Developer</p>
-            <p class="pull-right" style="font-size:13px;">Feb 2020 – Mar 2020</p>
-            <br><br>
-            <p>
-              - Developed a Full Stack Web Application for Monan-Hanquoc. Check out the <a href="https://www.monan-hanquoc.com" target="_blank">Website</a>!</p>
-          </li>
-          <li>
-            <a target="_blank" href="https://www.jpmorgan.com">JP Morgan Chase</a>&nbsp;&nbsp;
-            <a style="cursor: default; text-decoration: none; font-size:12px; color: #656565;">Hong Kong</a>
-            <br>
-            <p class="pull-left" style="font-size:13px; color: black;">Summer Analyst</p>
-            <p class="pull-right" style="font-size:13px;">Jun 2019 – Aug 2019</p>
-            <br><br>
-            <p>
-              - Developed a Personalized Recommendation System based on collaborative filtering with user clustering algorithm to improve client’s user experience on international private bank website using Python, Java, Angular.<br>
-              - Flask API of this Inference Service was deployed on Gaia (JPMC’s cloud service) which enabled firm-wide application.</p>
-          </li>
-          <li>
-            <a target="_blank" href="http://imago.ai/">Imago.AI</a>&nbsp;&nbsp;
-            <a style="cursor: default; text-decoration: none; font-size:12px; color: #656565;">Hong Kong</a>
-            <br>
-            <p class="pull-left" style="font-size:13px; color: black;">Artificial Intelligence Researcher</p>
-            <p class="pull-right" style="font-size:13px;">May 2018 – Aug 2018</p>
-            <br><br>
-            <p>
-              - Implemented a Neural Question & Answering model based on Bi-directional Attention Flow architecture with additional Self-attention mechanism to improve localization precision for pointer network, on SQuAD and MS MARCO dataset. Demo available <a target="_blank" href="https://www.imago.ai/#experience">here</a>!<br>
-              - Implemented a Chinese Named Entity Recognition model using Bi-directional LSTM with CRF on Hong Kong address dataset.</p>
-          </li>
-          <li>
-            <a target="_blank" href="http://aromeodiffuser.com/">Aromeo</a>&nbsp;&nbsp;
-            <a style="cursor: default; text-decoration: none; font-size:12px; color: #656565;">Hong Kong</a>
-            <br>
-            <p class="pull-left" style="font-size:13px; color: black;">Part Time Web Developer</p>
-            <p class="pull-right" style="font-size:13px;">Sep 2017 – Mar 2018</p>
-            <br><br>
-            <p>
-              - Developed Full-stack interactive web application with Node.js and React.js as an admin management console.<br>
-              - Designed and modelled the initial PostgreSQL database structure for server-side development.</p>
-          </li>
-          <li>
-            <a target="_blank" href="http://www.compathnion.com/">Whereami, HKUST</a>&nbsp;&nbsp;
-            <a style="cursor: default; text-decoration: none; font-size:12px; color: #656565;">Hong Kong</a>
-            <br>
-            <p class="pull-left" style="font-size:13px; color: black;">UG Researcher</p>
-            <p class="pull-right" style="font-size:13px;"> Jun 2016 – Aug 2016</p>
-            <br><br>
-            <p>
-              - Improved the indoor localization Android application using additional embedded geomagnetic positioning system.<br>
-              - Evaluated various localization technologies, such as GPS, geomagnetic, and Wi-Fi based positioning system, to improve indoor localization precision.</p>
-          </li>
-        </ul>
+          I'm a fresh graduate with <span class="color-underline">BEng in Computer Science</span> from The Hong Kong University of Science and Technology, HKUST.<br>
+          Skilled in Python, C++, Machine/Deep Learning, and Web development. I previously worked on the <span class="color-underline">Full Stack Web Development</span> and various <span class="color-underline">Machine Learning</span> & <span class="color-underline">Natural Language Processing (NLP)</span> related projects.<br><br>
+          <p><a class="btn btn-primary btn-download" target="_blank" href="Chloe_KIM_CV_Feb_9__20.pdf">DOWNLOAD CV</a></p>
+
+          <hr>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <hr>
+    <section id="experience">
+      <div class="row">
+        <div class="col-md-12">
 
-    <div class="row" style="padding-right:35px;">
-      <div class="col-md-11">
-        <h4 style="color: #3F6896;">Projects</h4><br>
-        <ul class="projects">
-          <li>
-            <a style="cursor: default; text-decoration: none;">Fake News Detection</a>&nbsp;&nbsp;
-            <a style="cursor: default; text-decoration: none; font-size:12px; color: #656565;">Hong Kong</a>
-            <br>
-            <p class="pull-left" style="font-size:13px; color: black;">Final Year Project</p>
-            <p class="pull-right" style="font-size:13px;">May 2018 – May 2019</p>
-            <br><br>
-            <p>
-              - Proposed a comprehensive and diverse neural network-based model for fake news detecting system consisting of text, multi-modal(text-and-image), and query modules.<br>
-              - Suggested an alternative claim & evidence based approach of fact checking for fake news detection using BiDAF model for localization within evidence context and Allen NLP Decomposable Attention model pipeline.<br>
-              - Implemented Flask web application to integrate the system with trained models into an exportable API.</p>
-          </li>
-          <li>
-            <a target="_blank" href="https://bundleport.com/">BundlePort</a>&nbsp;&nbsp;
-            <a style="cursor: default; text-decoration: none; font-size:12px; color: #656565;">Hong Kong</a>
-            <br>
-            <p class="pull-left" style="font-size:13px; color: black;">CEO / CTO</p>
-            <p class="pull-right" style="font-size:13px;">Jan 2018 – May 2019</p>
-            <br><br>
-            <p>
-              - Developed Full-stack web application focusing on enhancing UI/UX using Node.js and MySQL, and deployed on cloud server using AWS EC2, S3, Elastic Beanstalk, and CloudFront. Check out our <a target="_blank" href="https://bundleport.com/">website</a>!<br>
-              - Took full responsibility as a CEO to lead and manage the core logistic process, financial records, retail sales and rent team activities.</p>
-          </li>
-          <li>
-            <a style="cursor: default; text-decoration: none;">Big Data Analysis Society</a>&nbsp;&nbsp;
-            <a style="cursor: default; text-decoration: none; font-size:12px; color: #656565;">Hong Kong</a>
-            <br>
-            <p class="pull-left" style="font-size:13px; color: black;">President</p>
-            <p class="pull-right" style="font-size:13px;">Sep 2017 – Jun 2018</p>
-            <br><br>
-            <p>
-              - Organized and instructed in group events to promote learning of basic Tensorflow, R, and Data Visualization.<br>
-              - Participated in Aviation Data Analysis Competition held by Korea Airport Corporation.</p>
-          </li>
-        </ul>
+          <h4 class="header">Experiences</h4>
+          <hr class="header-hr">
+
+          <br>
+          <ul class="timeline">
+            <li class="timeline-item">
+              <a class="company" target="_blank" href="https://www.goldmansachs.com">Goldman Sachs</a>
+              <a class="exp_place">Singapore</a>
+              <br>
+              <p class="pull-left exp_position">Incoming Analyst</p>
+              <p class="pull-right exp_date">July 2020<span class="hline-middle"></span></p>
+              <br><br>
+              <ul class="bullet">
+              </ul>
+            </li>
+            <li class="timeline-item">
+              <a class="company" target="_blank" href="https://www.monan-hanquoc.com">Monan-Hanquoc</a>
+              <a class="exp_place">Remote</a>
+              <br>
+              <p class="pull-left exp_position">Full Stack Web Developer</p>
+              <p class="pull-right exp_date">Feb 2020<span class="hline-middle"></span>Mar 2020</p>
+              <br><br>
+              <ul class="bullet">
+                <li>Developed a Full Stack Web Application for Monan-Hanquoc. Check out the <a href="https://www.monan-hanquoc.com" target="_blank">website</a>!</li>
+              </ul>
+            </li>
+            <li class="timeline-item">
+              <a class="company" target="_blank" href="https://www.jpmorgan.com">J.P. Morgan Chase</a>
+              <a class="exp_place">Hong Kong</a>
+              <br>
+              <p class="pull-left exp_position">Summer Analyst</p>
+              <p class="pull-right exp_date">Jun 2019<span class="hline-middle"></span>Aug 2019</p>
+              <br><br>
+              <ul class="bullet">
+                <li>Developed a Personalized Recommendation System based on collaborative filtering with user clustering algorithm to improve client’s user experience on international private bank website using Python, Java, Angular.</li>
+                <li>Flask API of this Inference Service was deployed on Gaia (JPMC’s cloud service) which enabled firm-wide application.</li>
+              </ul>
+            </li>
+            <li class="timeline-item">
+              <a class="company" target="_blank" href="http://imago.ai/">Imago.AI</a>
+              <a class="exp_place">Hong Kong</a>
+              <br>
+              <p class="pull-left exp_position">Artificial Intelligence Researcher</p>
+              <p class="pull-right exp_date">May 2018<span class="hline-middle"></span>Aug 2018</p>
+              <br><br>
+              <ul class="bullet">
+                <li>Implemented a Neural Question & Answering model based on Bi-directional Attention Flow architecture with additional Self-attention mechanism to improve localization precision for pointer network, on SQuAD and MS MARCO dataset. Demo available <a target="_blank" href="https://www.imago.ai/#experience">here</a>!</li>
+                <li>Implemented a Chinese Named Entity Recognition model using Bi-directional LSTM with CRF on Hong Kong address dataset.</li>
+              </ul>
+            </li>
+            <li class="timeline-item">
+              <a class="company" target="_blank" href="http://aromeodiffuser.com/">Aromeo</a>
+              <a class="exp_place">Hong Kong</a>
+              <br>
+              <p class="pull-left exp_position">Part Time Web Developer</p>
+              <p class="pull-right exp_date">Sep 2017<span class="hline-middle"></span>Mar 2018</p>
+              <br><br>
+              <ul class="bullet">
+                <li>Developed Full-stack interactive web application with Node.js and React.js as an admin management console.</li>
+                <li>Designed and modelled the initial PostgreSQL database structure for server-side development.</li>
+              </ul>
+            </li>
+            <li class="timeline-item">
+              <a class="company" target="_blank" href="http://www.compathnion.com/">Whereami, HKUST</a>
+              <a class="exp_place">Hong Kong</a>
+              <br>
+              <p class="pull-left exp_position">UG Researcher</p>
+              <p class="pull-right exp_date"> Jun 2016<span class="hline-middle"></span>Aug 2016</p>
+              <br><br>
+              <ul class="bullet">
+                <li>Improved the indoor localization Android application using additional embedded geomagnetic positioning system.</li>
+                <li>Evaluated various localization technologies, such as GPS, geomagnetic, and Wi-Fi based positioning system, to improve indoor localization precision.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </section>
 
     <hr>
 
-    <div class="row">
-      <div class="col-md-11">
-        <h4 style="color: #293E6A;">Skills</h4><br>
-        <ul style="list-style: none; padding-left: 0;">
-          <li>
-            <p style="color: #293E6A; font-size:17px;">Technical Skills</p>
-            <p style="font-size:15px;">Python | PyTorch | Tensorflow | Scikit-learn | C++ | HTML5 | CSS | Bootstrap | Node.js | React | SQL | Java</p>
-          </li><br>
-          <li>
-            <p style="color: #293E6A; font-size:17px;">Language Skills</p>
-            <p style="font-size:15px;">English (Fluent) | Korean(Native) | Mandarin (Intermediate)</p>
-          </li>
-        </ul>
+    <section id="project">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="header">Projects</h4>
+          <hr class="header-hr">
+          <br>
+
+          <ul class="projects">
+            <li>
+              <a class="company" style="text-decoration: none;">Fake News Detection</a>
+              <a class="exp_place">Hong Kong</a>
+              <br>
+              <p class="pull-left exp_position">Final Year Project</p>
+              <p class="pull-right exp_date">May 2018<span class="hline-middle"></span>May 2019</p>
+              <br><br>
+              <ul class="bullet">
+                <li>Proposed a comprehensive and diverse neural network-based model for fake news detecting system consisting of text, multi-modal(text-and-image), and query modules.</li>
+                <li>Suggested an alternative claim & evidence based approach of fact checking for fake news detection using BiDAF model for localization within evidence context and Allen NLP Decomposable Attention model pipeline.</li>
+                <li>Implemented Flask web application to integrate the system with trained models into an exportable API.</li>
+              </ul>
+            </li>
+            <li>
+              <a class="company" target="_blank" href="https://bundleport.com/">BundlePort</a>
+              <a class="exp_place">Hong Kong</a>
+              <br>
+              <p class="pull-left exp_position">CEO / CTO</p>
+              <p class="pull-right exp_date">Jan 2018<span class="hline-middle"></span>May 2019</p>
+              <br><br>
+              <ul class="bullet">
+                <li>Developed Full-stack web application focusing on enhancing UI/UX using Node.js and MySQL, and deployed on cloud server using AWS EC2, S3, Elastic Beanstalk, and CloudFront. Check out our <a target="_blank" href="https://bundleport.com/">website</a>!</li>
+                <li>Took full responsibility as a CEO to lead and manage the core logistic process, financial records, retail sales and rent team activities.</li>
+              </ul>
+            </li>
+            <li>
+              <a class="company" style="text-decoration: none;">Big Data Analysis Society</a>
+              <a class="exp_place">Hong Kong</a>
+              <br>
+              <p class="pull-left exp_position">President</p>
+              <p class="pull-right exp_date">Sep 2017<span class="hline-middle"></span>Jun 2018</p>
+              <br><br>
+              <ul class="bullet">
+                <li>Organized and instructed in group events to promote learning of basic Tensorflow, R, and Data Visualization.</li>
+                <li>Participated in Aviation Data Analysis Competition held by Korea Airport Corporation.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </section>
 
     <hr>
 
-    <div class="row">
-      <div class="col-md-11">
-        <h4 style="color: #141E33;">Honors and Awards</h4><br>
-        <ul style="list-style: none; padding-left: 0;">
-          <li style="line-height: 18px;">
-              <p style="color: #141E33; font-size:15px;">JP Morgan Chase & Co. Internal Innovation Week Hackathon 2019 Winner (JPMC Trends), <span style="color: #656565">2019</span></p>
-              <p style="color: #141E33; font-size:15px;">SmarTone Hackathon 2018 “Smart Properties”, Interactive Property Chatbot - Top 3 Project, <span style="color: #656565">2018</span></p>
-              <p style="color: #141E33; font-size:15px;">Targeted Scholarship under HKSAR Government Scholar Fund, Full Scholarship, <span style="color: #656565">2016 – 2020</span></p>
-              <p style="color: #141E33; font-size:15px;">Admission Scholarship from HKUST, Full Scholarship, <span style="color: #656565">2016 – 2020</span></p>
-              <p style="color: #141E33; font-size:15px;">Dean’s List from HKUST, <span style="color: #656565">2016 / 2019</span></p>
-              <p style="color: #141E33; font-size:15px;">Certificate of Mensa International Membership from Mensa International, High IQ society, <span style="color: #656565">2015</span></p>
-          </li>
-        </ul>
-        
+    <section id="skills">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="header">Skills</h4>
+          <hr class="header-hr">
+          <br>
+
+          <ul style="list-style: none; padding-left: 0;">
+            <li>
+              <p class="subheader">Technical Skills</p>
+              <p>
+                Python<span class="line-middle"></span>
+                PyTorch<span class="line-middle"></span>
+                Tensorflow<span class="line-middle"></span>
+                Scikit-learn<span class="line-middle"></span>
+                C++<span class="line-middle"></span>
+                HTML5<span class="line-middle"></span>
+                CSS<span class="line-middle"></span>
+                Bootstrap<span class="line-middle"></span>
+                Node.js<span class="line-middle"></span>
+                React<span class="line-middle"></span>
+                SQL<span class="line-middle"></span>
+                Java
+              </p>
+            </li>
+            <br>
+            <li>
+              <p class="subheader">Language Skills</p>
+              <p>
+                English (Fluent)<span class="line-middle"></span>
+                Korean (Native)<span class="line-middle"></span>
+                Mandarin (Intermediate)
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <br>
+    </section>
+
     <hr>
-    <br><br>
+
+    <section id="awards">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="header">Honors and Awards</h4>
+          <hr class="header-hr">
+          <br>
+
+          <ul class="award-list">
+            <li style="line-height: 18px;">
+                <p class="award">
+                  J.P. Morgan Chase & Co. Internal Innovation Week Hackathon 2019 Winner (JPMC Trends)
+                  <span class="award_date">2019</span>
+                </p>
+                <p class="award">
+                  SmarTone Hackathon 2018 “Smart Properties”, Interactive Property Chatbot - Top 3 Project
+                  <span class="award_date">2018</span>
+                </p>
+                <p class="award">
+                  Targeted Scholarship under HKSAR Government Scholar Fund, Full Scholarship
+                  <span class="award_date">2016<span class="hline-middle"></span>2020</span>
+                </p>
+                <p class="award">
+                  Admission Scholarship from HKUST, Full Scholarship
+                  <span class="award_date">2016<span class="hline-middle"></span>2020</span>
+                </p>
+                <p class="award">
+                  Dean’s List from HKUST
+                  <span class="award_date">2016<span class="hline-slash"></span>2019</span></p>
+                <p class="award">
+                  Certificate of Mensa International Membership from Mensa International, High IQ society
+                  <span class="award_date">2015</span></p>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+      <br>
+      <hr>
+    </section>
+
+    <section id="contact">
+      <img src="assets/images/blob-shape.svg" class="svg-blob-2">
+
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="header">Contact</h4>
+          <hr class="header-hr">
+          <br>
+          <div class="section-content">
+            <div class="row">
+              
+              <div class="col-md-8 col-md-offset-2">
+                <div class="contact-form">
+                  <form id="contact-form" name="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeOy-mGSdl6c0KnGhZmoUKIqslxlOXpaZZdJYueL3BKGoS3tg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+                    <div class="form-group">
+                      <input id="entry.2062230605" name="entry.2062230605" type="text" placeholder="Name" data-required="true" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <input id="entry.1051835049" name="entry.1051835049" type="email" placeholder="Email" data-required="true" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <input id="entry.925252639" name="entry.925252639" type="text" placeholder="Phone Number&nbsp;&nbsp;(optional)" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <textarea id="entry.2125257781" name="entry.2125257781" placeholder="Message" data-required="true" class="form-control" style="resize: none;"></textarea>
+                    </div>
+                    <br>
+                    <div class="form-group text-center">
+                      <button type="submit" value="Submit" class="btn btn-download">SEND MESSAGE</button>
+                    </div>
+                    <br>
+                    <br>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
 
   </div>
 
@@ -324,6 +432,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 
-<script type="text/javascript" src="./main.85741bff.js"></script></body>
+<script type="text/javascript" src="./main.85741bff.js"></script>
+<script type="text/javascript" src="./main.js"></script>
+</body>
 
 </html>
